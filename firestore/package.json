@@ -1,0 +1,16 @@
+{
+  "name": "firestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "firebase emulators:exec --only firestore \"env PATH=$PATH jest --colors\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/testing": "^0.9.4",
+    "firebase-tools": "^6.9.2",
+    "jest": "^24.8.0"
+  }
+}
